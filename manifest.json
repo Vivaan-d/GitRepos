@@ -1,21 +1,11 @@
 {
-	"name": "Hello Werld!",
-	"description": "My thirsty Chrome App.",
-	"manifest_version": 2,
-	"version": "0.0.1",
-	"app": {
-		"background": {
-			"scripts": [
-				"background.js"
-			]
-		}
-	},
+	"name": "GitRepos",
+	"manifest_version": 3,
+	"version": "1.0",
 	"permissions": [
 		"storage",
 		"clipboardRead",
-		"clipboardWrite",
-		"https://api.somewhere.com/*",
-		{"fileSystem" : ["write"]} // for writing xlsx files?
+		"clipboardWrite"
 	],
 	
 	"icons": { 
